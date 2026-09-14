@@ -69,7 +69,7 @@ df_detect_outlier[outlier_mask]
 Batas: [-437500.0, 2382500.0]
 Jumlah outlier: 288
 ```
-![output_IQR_Method](/Images/method_IQR_outlier.png)
+![output_IQR_Method](./Images/method_IQR_outlier.png)
 
 ---
 
@@ -305,7 +305,7 @@ df_detect_outlier[z.abs() > 3]
 ```bash
 Outlier via z-score (|z| > 3): 113
 ```
-![Method_Z-Score_Detect_Outlier](/Images/method_Z-Score_outlier.png)
+![Method_Z-Score_Detect_Outlier](./Images/method_Z-Score_outlier.png)
 
 ---
 

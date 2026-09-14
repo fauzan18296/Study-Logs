@@ -537,7 +537,7 @@ df_ind[["Car", "car_missing"]]
 
 **Output:**
 
-![Output_Strategi_Indicator_Missing_Value](/Images/Output_Indicator_Strategi_Missing_Value.png)
+![Output_Strategi_Indicator_Missing_Value](../Images/Output_Indicator_Strategi_Missing_Value.png)
 
 ---
 
