@@ -330,61 +330,8 @@ Mengisi semua jam kosong dengan 100 bisa menghasilkan distorsi.
 daripada ffill.
 
 ---
-### 2.5 🧠 Kenapa imputasi harus dihitung dari train set saja?
----
 
-Ini salah satu prinsip paling penting dalam ML.
-
-#### Misal:
-
-**Dataset:**
-```bash
-100 data
-```
-
-**Split:**
-```bash
-80 train
-20 test
-```
-
-**Train:**
-```bash
-10, 20, 30, NaN
-```
-
-**Test:**
-```bash
-40, 50, 1000
-```
-
-Jika median dihitung dari train saja:
-
-**Train median:**
-```bash
-20
-```
-
-**`NaN` train diisi:**
-```bash
-20
-```
-
-Jika median dihitung dari seluruh dataset:
-
-```bash
-10,20,30,40,50,1000
-```
-
-**Median:**
-```bash
-35
-```
-Maka train mendapatkan informasi dari test.
-
-Padahal saat training model seharusnya belum "melihat" test.
-
-### 2.6 🚨 Apa itu Data Leakage?
+### 2.5 🚨 Apa itu Data Leakage?
 
 ---
 
@@ -418,7 +365,7 @@ Informasi mengalir ke arah yang salah sehingga model secara tidak sengaja "menco
 
 ---
 
-### 2.7 🔍 Apa ciri-ciri Data Leakage?
+### 2.6 🔍 Apa ciri-ciri Data Leakage?
 
 ---
 
@@ -464,7 +411,7 @@ Model mendapatkan informasi yang seharusnya belum diketahui saat prediksi dilaku
 
 ---
 
-### 2.8 🛡️ Cara Mencegah Data Leakage
+### 2.7 🛡️ Cara Mencegah Data Leakage
 
 ---
 
