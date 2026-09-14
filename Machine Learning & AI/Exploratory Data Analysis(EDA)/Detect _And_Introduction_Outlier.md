@@ -30,7 +30,7 @@ plt.show()
 
 **Output:**
 
-![visual_boxplot](/Images/output_detect_outlier_boxplot.png)
+![visual_boxplot](./Images/output_detect_outlier_boxplot.png)
 
 ---
 #### 1.1 📖 Bagaimana cara baca visual boxplot?
