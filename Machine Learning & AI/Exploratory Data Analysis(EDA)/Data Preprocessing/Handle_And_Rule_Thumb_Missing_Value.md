@@ -333,9 +333,8 @@ daripada ffill.
 
 ### 2.5 🚨 Apa itu Data Leakage?
 
----
 
-**Data Leakage** adalah kondisi ketika informasi dari data test atau masa depan bocor ke proses training.
+**Data Leakage(kebocoran data)** dalam machine learning terjadi ketika informasi dari data uji (test set) secara tidak sengaja "bocor" masuk ke dalam data latih (training set) saat proses pelatihan model.
 
 Akibatnya:
 
@@ -365,7 +364,14 @@ Informasi mengalir ke arah yang salah sehingga model secara tidak sengaja "menco
 
 ---
 
-### 2.6 🔍 Apa ciri-ciri Data Leakage?
+### 2.6 📌 Kenapa data leakage selalu berpusat di data uji(data test)?
+
+Hal ini selalu berpusat pada data uji karena **data uji seharusnya menjadi ujian murni yang belum pernah dilihat atau disentuh sama sekali oleh model**. Ketika informasi dari data uji ikut tercampur di awal (seperti saat melakukan normalisasi, imputasi, atau ekstraksi fitur pada seluruh data sekaligus sebelum dibagi), model secara tidak sadar "menyontek" kunci jawaban dari ujian tersebut. Akibatnya, performa atau akurasi model terlihat sangat tinggi saat diuji, tetapi hancur atau gagal total ketika dihadapkan pada data dunia nyata yang benar-benar baru.
+
+
+---
+
+### 2.7 🔍 Apa ciri-ciri Data Leakage?
 
 ---
 
@@ -411,7 +417,7 @@ Model mendapatkan informasi yang seharusnya belum diketahui saat prediksi dilaku
 
 ---
 
-### 2.7 🛡️ Cara Mencegah Data Leakage
+### 2.8 🛡️ Cara Mencegah Data Leakage
 
 ---
 
