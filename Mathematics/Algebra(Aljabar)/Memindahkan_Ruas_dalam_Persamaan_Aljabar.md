@@ -24,6 +24,7 @@ Tanda `=` berarti kedua ruas memiliki **nilai yang sama**.
 
 ```text
         RUAS KIRI       =       RUAS KANAN
+
            120          =       2.8x + 17
 ```
 
@@ -85,13 +86,7 @@ $$
 120 = 2.8x + 17
 $$
 
-Kita melakukan:
-
-$$
--17
-$$
-
-pada **kedua ruas**:
+Kita melakukan `-17` pada **kedua ruas**:
 
 $$
 120 - 17 = 2.8x + 17 - 17
@@ -100,18 +95,18 @@ $$
 Di ruas kanan:
 
 $$
-+17-17=0
++17 - 17 = 0
 $$
 
 Maka tersisa:
 
 $$
-103=2.8x
+103 = 2.8x
 $$
 
 Jadi bukan karena ada aturan ajaib bahwa:
 
-> `+17` kalau pindah pasti menjadi `-17`.
+> ❌ `+17` kalau pindah pasti menjadi `-17`.
 
 Melainkan karena kita menggunakan **operasi invers** untuk menghilangkan `+17`.
 
@@ -122,17 +117,17 @@ Melainkan karena kita menggunakan **operasi invers** untuk menghilangkan `+17`.
 Misalkan:
 
 $$
-120=2.8x+17
+120 = 2.8x + 17
 $$
 
 ### Langkah 1 — Hilangkan \(+17\)
 
 $$
-120-17=2.8x
+120 - 17 = 2.8x
 $$
 
 $$
-103=2.8x
+103 = 2.8x
 $$
 
 ### Langkah 2 — Hilangkan perkalian \(2.8\)
@@ -140,27 +135,25 @@ $$
 Karena:
 
 $$
-2.8x=2.8\times x
+2.8x = 2.8 \times x
 $$
 
 maka kita bagi kedua ruas dengan \(2.8\):
 
 $$
-\frac{103}{2.8}
-=
-\frac{2.8x}{2.8}
+\frac{103}{2.8} = \frac{2.8x}{2.8}
 $$
 
 Sehingga:
 
 $$
-x\approx36.79
+x \approx 36.79
 $$
 
 Jadi:
 
 $$
-\boxed{x\approx36.79\text{ jam}}
+\boxed{x \approx 36.79\text{ jam}}
 $$
 
 ---
@@ -179,33 +172,33 @@ Contoh:
 ### Penjumlahan
 
 $$
-x+5=12
+x + 5 = 12
 $$
 
 Kurangi kedua ruas dengan 5:
 
 $$
-x+5-5=12-5
+x + 5 - 5 = 12 - 5
 $$
 
 $$
-x=7
+x = 7
 $$
 
 ### Perkalian
 
 $$
-3x=12
+3x = 12
 $$
 
 Bagi kedua ruas dengan 3:
 
 $$
-\frac{3x}{3}=\frac{12}{3}
+\frac{3x}{3} = \frac{12}{3}
 $$
 
 $$
-x=4
+x = 4
 $$
 
 ---
@@ -214,13 +207,13 @@ $$
 
 Jangan memahami aljabar sebagai:
 
-> ❌ "Kalau pindah ruas, tandanya berubah."
+> ❌ **"Kalau pindah ruas, tandanya berubah."**
 
 Lebih baik pahami sebagai:
 
 > ✅ **"Saya melakukan operasi invers pada kedua ruas untuk mempertahankan kesetaraan persamaan."**
 
-Aturan "pindah ruas → tanda berubah" memang **berguna sebagai shortcut**, tetapi kalau hanya menghafalnya, kamu bisa bingung ketika persamaan menjadi lebih kompleks.
+Aturan **"pindah ruas → tanda berubah"** memang berguna sebagai **shortcut**, tetapi kalau hanya menghafalnya, kamu bisa bingung ketika persamaan menjadi lebih kompleks.
 
 ---
 
@@ -229,68 +222,68 @@ Aturan "pindah ruas → tanda berubah" memang **berguna sebagai shortcut**, teta
 Misalnya:
 
 $$
-f(x)=2.8x+17
+f(x) = 2.8x + 17
 $$
 
 dan kamu memiliki anggaran:
 
 $$
-f(x)=120
+f(x) = 120
 $$
 
 Maka:
 
 $$
-120=2.8x+17
+120 = 2.8x + 17
 $$
 
 Kita mencari \(x\):
 
 $$
-120-17=2.8x
+120 - 17 = 2.8x
 $$
 
 $$
-103=2.8x
+103 = 2.8x
 $$
 
 $$
-x=\frac{103}{2.8}
+x = \frac{103}{2.8}
 $$
 
 $$
-\boxed{x\approx36.79}
+\boxed{x \approx 36.79}
 $$
 
 Artinya, berdasarkan fungsi tersebut, **anggaran $120 menghasilkan sekitar 36,79 jam penggunaan**.
 
 ---
 
-## 🧩 Ringkasan
+# 🧩 Ringkasan
 
 ```text
-          PERSAMAAN
-              │
-              ▼
-      Kedua ruas harus tetap
-           setara/seimbang
-              │
-              ▼
-   ┌─────────────────────────┐
-   │ Lakukan operasi yang    │
-   │ sama pada kedua ruas    │
-   └─────────────────────────┘
-              │
-              ▼
-       Gunakan operasi invers
-              │
-      ┌───────┴────────┐
-      ▼                ▼
-   + ↔ −            × ↔ ÷
-      │                │
-      └───────┬────────┘
-              ▼
-         Cari variabel
+              PERSAMAAN
+                  │
+                  ▼
+       Kedua ruas harus tetap
+          setara / seimbang
+                  │
+                  ▼
+     ┌─────────────────────────┐
+     │ Lakukan operasi yang    │
+     │ sama pada kedua ruas    │
+     └─────────────────────────┘
+                  │
+                  ▼
+          Gunakan operasi invers
+                  │
+          ┌───────┴────────┐
+          ▼                ▼
+        + ↔ −            × ↔ ÷
+          │                │
+          └───────┬────────┘
+                  ▼
+            Cari variabel
 ```
 
 ### 🧠 Kalimat kunci
