@@ -8,13 +8,13 @@ Selamat datang di ensiklopedia fisika paling seru dan lengkap! Modul ini merangk
 
 - [🌌 Modul Master Fisika: Panduan Lengkap 46 Episode Crash Course Physics](#-modul-master-fisika-panduan-lengkap-46-episode-crash-course-physics)
   - [📑 Daftar Bab Utama](#-daftar-bab-utama)
-  - [🏃 Bagian 1: Kinematika & Kalkulus Dasar (Ep. 1 - 4)](#-bagian-1-kinematika--kalkulus-dasar-ep-1---4)
-  - [🍎 Bagian 2: Dinamika & Hukum Newton (Ep. 5 - 10)](#-bagian-2-dinamika--hukum-newton-ep-5---10)
-  - [🎡 Bagian 3: Gerak Rotasi, Statika & Fluida (Ep. 11 - 15)](#-bagian-3-gerak-rotasi-statika--fluida-ep-11---15)
-  - [🌡️ Bagian 4: Gelombang, Suhu & Termodinamika (Ep. 16 - 24)](#️-bagian-4-gelombang-suhu--termodinamika-ep-16---24)
-  - [⚡ Bagian 5: Kelistrikan & Magnetisme (Ep. 25 - 37)](#-bagian-5-kelistrikan--magnetisme-ep-25---37)
-  - [🌈 Bagian 6: Optik & Cahaya (Ep. 38 - 41)](#-bagian-6-optik--cahaya-ep-38---41)
-  - [⚛️ Bagian 7: Fisika Modern, Kuantum & Kosmologi (Ep. 42 - 46)](#️-bagian-7-fisika-modern-kuantum--kosmologi-ep-42---46)
+  - [🏃 Bagian 1: Kinematika \& Kalkulus Dasar (Ep. 1 - 4)](#-bagian-1-kinematika--kalkulus-dasar-ep-1---4)
+  - [🍎 Bagian 2: Dinamika \& Hukum Newton (Ep. 5 - 10)](#-bagian-2-dinamika--hukum-newton-ep-5---10)
+  - [🎡 Bagian 3: Gerak Rotasi, Statika \& Fluida (Ep. 11 - 15)](#-bagian-3-gerak-rotasi-statika--fluida-ep-11---15)
+  - [🌡️ Bagian 4: Gelombang, Suhu \& Termodinamika (Ep. 16 - 24)](#️-bagian-4-gelombang-suhu--termodinamika-ep-16---24)
+  - [⚡ Bagian 5: Kelistrikan \& Magnetisme (Ep. 25 - 37)](#-bagian-5-kelistrikan--magnetisme-ep-25---37)
+  - [🌈 Bagian 6: Optik \& Cahaya (Ep. 38 - 41)](#-bagian-6-optik--cahaya-ep-38---41)
+  - [⚛️ Bagian 7: Fisika Modern, Kuantum \& Kosmologi (Ep. 42 - 46)](#️-bagian-7-fisika-modern-kuantum--kosmologi-ep-42---46)
 
 ---
 
@@ -217,7 +217,3 @@ E = mc^2
 
 * **Ep. 46: Astrofisika & Kosmologi (*Astrophysics and Cosmology*)**
   * *Penjelasan Sederhana:* Menjelajahi bagaimana alam semesta lahir dari ledakan besar (*Big Bang*) dan galaksi-galaksi raksasa di luar sana.
-
----
-
-> 🎉 **Selesai!** Seluruh rumus kini telah dikonversi menggunakan blok kode khusus ` ```math ` sehingga dijamin aman, bersih, dan dirender dengan sempurna di GitHub tanpa risiko error parser Markdown.
