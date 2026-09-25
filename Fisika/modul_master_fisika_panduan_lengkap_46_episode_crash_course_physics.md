@@ -1,18 +1,20 @@
 # 🌌 Modul Master Fisika: Panduan Lengkap 46 Episode Crash Course Physics
 
-Selamat datang di ensiklopedia fisika paling seru dan lengkap! Modul ini merangkum seluruh **46 episode** dari playlist *Crash Course Physics*. Penjelasannya dirancang agar ramah dipahami (bisa dimengerti bahkan oleh anak SD), dilengkapi dengan istilah teknis, serta menggunakan format **LaTeX yang diberi spasi khusus** agar dirender sempurna oleh GitHub.
+Selamat datang di ensiklopedia fisika paling seru dan lengkap! Modul ini merangkum seluruh **46 episode** dari playlist *Crash Course Physics*. Penjelasannya dirancang agar ramah dipahami (bisa dimengerti bahkan oleh anak SD), dilengkapi dengan istilah teknis, serta menggunakan format **LaTeX** agar dirender sempurna oleh GitHub.
 
 ---
 
 ## 📑 Daftar Bab Utama
 
-* [Bagian 1: Kinematika & Kalkulus Dasar (Ep. 1 - 4)](#-bagian-1-kinematika--kalkulus-dasar-ep-1---4)
-* [Bagian 2: Dinamika & Hukum Newton (Ep. 5 - 10)](#-bagian-2-dinamika--hukum-newton-ep-5---10)
-* [Bagian 3: Gerak Rotasi, Statika & Fluida (Ep. 11 - 15)](#-bagian-3-gerak-rotasi-statika--fluida-ep-11---15)
-* [Bagian 4: Gelombang, Suhu & Termodinamika (Ep. 16 - 24)](#-bagian-4-gelombang-suhu--termodinamika-ep-16---24)
-* [Bagian 5: Kelistrikan & Magnetisme (Ep. 25 - 37)](#-bagian-5-kelistrikan--magnetisme-ep-25---37)
-* [Bagian 6: Optik & Cahaya (Ep. 38 - 41)](#-bagian-6-optik--cahaya-ep-38---41)
-* [Bagian 7: Fisika Modern, Kuantum & Kosmologi (Ep. 42 - 46)](#-bagian-7-fisika-modern-kuantum--kosmologi-ep-42---46)
+- [🌌 Modul Master Fisika: Panduan Lengkap 46 Episode Crash Course Physics](#-modul-master-fisika-panduan-lengkap-46-episode-crash-course-physics)
+  - [📑 Daftar Bab Utama](#-daftar-bab-utama)
+  - [🏃 Bagian 1: Kinematika \& Kalkulus Dasar (Ep. 1 - 4)](#-bagian-1-kinematika--kalkulus-dasar-ep-1---4)
+  - [🍎 Bagian 2: Dinamika \& Hukum Newton (Ep. 5 - 10)](#-bagian-2-dinamika--hukum-newton-ep-5---10)
+  - [🎡 Bagian 3: Gerak Rotasi, Statika \& Fluida (Ep. 11 - 15)](#-bagian-3-gerak-rotasi-statika--fluida-ep-11---15)
+  - [🌡️ Bagian 4: Gelombang, Suhu \& Termodinamika (Ep. 16 - 24)](#️-bagian-4-gelombang-suhu--termodinamika-ep-16---24)
+  - [⚡ Bagian 5: Kelistrikan \& Magnetisme (Ep. 25 - 37)](#-bagian-5-kelistrikan--magnetisme-ep-25---37)
+  - [🌈 Bagian 6: Optik \& Cahaya (Ep. 38 - 41)](#-bagian-6-optik--cahaya-ep-38---41)
+  - [⚛️ Bagian 7: Fisika Modern, Kuantum \& Kosmologi (Ep. 42 - 46)](#️-bagian-7-fisika-modern-kuantum--kosmologi-ep-42---46)
 
 ---
 
@@ -57,7 +59,7 @@ Bagian ini membahas bagaimana benda bergerak dalam garis lurus maupun dua dimens
 Mempelajari alasan *mengapa* benda bisa bergerak, dipercepat, atau berhenti.
 
 * **Ep. 5: Hukum Newton (*Newton's Laws*)**
-  * *Penjelasan Sederhana:* Hukum 1 (Inersia: benda malas berubah kalau tidak disentuh), Hukum 2 ($F=ma$: makin berat benda, makin kuat dorongan yang dibutuhkan), Hukum 3 (Aksi-Reaksi: kalau kamu menonyor tembok, tembok juga mendorong balik tanganmu!).
+  * *Penjelasan Sederhana:* Hukum 1 (Inersia: benda malas berubah kalau tidak disentuh), Hukum 2 ($F = ma$: makin berat benda, makin kuat dorongan yang dibutuhkan), Hukum 3 (Aksi-Reaksi: kalau kamu menonyor tembok, tembok juga mendorong balik tanganmu!).
   * *Rumus & Teknis:* Persamaan dasar dinamika Newton:
 
   $$
@@ -206,7 +208,7 @@ Menjelajahi rahasia tingkat atom, kecepatan cahaya, hingga asal-usul alam semest
   $$
 
 * **Ep. 45: Fisika Nuklir & Persamaan Energi (*Nuclear Physics*)**
-  * *Penjelasan Sederhana:* Rumus paling terkenal di dunia, artinya massa kecil bisa diubah menjadi energi yang sangat dahsyat.
+  * *Penjelasan Sektoral:* Rumus paling terkenal di dunia, artinya massa kecil bisa diubah menjadi energi yang sangat dahsyat.
   * *Rumus & Teknis:* Kesetaraan massa dan energi Einstein:
 
   $$
@@ -218,4 +220,4 @@ Menjelajahi rahasia tingkat atom, kecepatan cahaya, hingga asal-usul alam semest
 
 ---
 
-> 🎉 **Selesai!** Modul lengkap dari episode 1 sampai 46 kini sudah siap. Semua blok rumus telah diberi jarak spasi baris kosong yang aman sehingga GitHub dapat merendernya dengan rapi, jelas, dan proporsional.
+> 🎉 **Selesai!** Modul lengkap dari episode 1 sampai 46 kini sudah siap. Semua blok rumus telah disesuaikan agar kompatibel dengan Markdown/MathJax GitHub (menggunakan blok baris terpisah dengan `$$ ... $$`) tanpa mengubah isi materi aslinya.
