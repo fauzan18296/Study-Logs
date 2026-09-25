@@ -17,15 +17,15 @@ Semua rumus kinematika sebenarnya berasal dari satu ide sederhana:
 
 Secara matematis:
 
-$$
+```math
 a=\frac{\Delta v}{\Delta t}
-$$
+```
 
 yang berarti:
 
-$$
+```math
 a=\frac{v-v_0}{t}
-$$
+```
 
 ---
 
@@ -33,9 +33,9 @@ $$
 
 ## Bentuk Rumus
 
-$$
+```math
 v=v_0+at
-$$
+```
 
 ---
 
@@ -43,15 +43,15 @@ $$
 
 Setiap detik, kecepatan berubah sebesar:
 
-$$
+```math
 a
-$$
+```
 
 Jika:
 
-$$
+```math
 a=2 \text{ m/s}^2
-$$
+```
 
 maka:
 
@@ -67,31 +67,31 @@ dan seterusnya.
 
 Mulai dari definisi percepatan:
 
-$$
+```math
 a=\frac{v-v_0}{t}
-$$
+```
 
 Kalikan kedua sisi dengan:
 
-$$
+```math
 t
-$$
+```
 
-$$
+```math
 at=v-v_0
-$$
+```
 
 Tambah:
 
-$$
+```math
 v_0
-$$
+```
 
-ke kedua sisi
+ke kedua sisi:
 
-$$
+```math
 v=v_0+at
-$$
+```
 
 Jadi rumus ini bukan rumus ajaib.
 
@@ -103,35 +103,31 @@ Rumus ini langsung berasal dari definisi percepatan.
 
 ## Bentuk Rumus
 
-$$
+```math
 \Delta x=v_0t+\frac12at^2
-$$
+```
 
 ---
 
 ## Makna Konsep
 
-Perpindahan terdiri dari dua bagian:
+Perpindahan terdiri dari dua bagian.
 
-### Bagian 1
+### Bagian 1: Gerak karena Kecepatan Awal
 
-Gerak karena kecepatan awal
-
-$$
+```math
 v_0t
-$$
+```
 
 Jika percepatan nol, benda tetap bergerak dengan kecepatan tetap.
 
 ---
 
-### Bagian 2
+### Bagian 2: Gerak Tambahan Akibat Percepatan
 
-Gerak tambahan akibat percepatan
-
-$$
+```math
 \frac12at^2
-$$
+```
 
 Karena kecepatan terus bertambah setiap detik.
 
@@ -141,49 +137,49 @@ Karena kecepatan terus bertambah setiap detik.
 
 Kecepatan rata-rata pada GLBB:
 
-$$
+```math
 v_{avg}=\frac{v_0+v}{2}
-$$
+```
 
 Karena:
 
-$$
+```math
 v=v_0+at
-$$
+```
 
 maka:
 
-$$
+```math
 v_{avg}
 =
 \frac{v_0+(v_0+at)}{2}
-$$
+```
 
-$$
+```math
 v_{avg}
 =
 v_0+\frac12at
-$$
+```
 
 Perpindahan:
 
-$$
+```math
 \Delta x=v_{avg}t
-$$
+```
 
 Substitusi:
 
-$$
+```math
 \Delta x
 =
 \left(
 v_0+\frac12at
 \right)t
-$$
+```
 
-$$
+```math
 \Delta x=v_0t+\frac12at^2
-$$
+```
 
 ---
 
@@ -191,9 +187,9 @@ $$
 
 ## Bentuk Rumus
 
-$$
+```math
 v^2=v_0^2+2a\Delta x
-$$
+```
 
 ---
 
@@ -214,9 +210,9 @@ tanpa membutuhkan waktu.
 
 Jika soal tidak memberi:
 
-$$
+```math
 t
-$$
+```
 
 biasanya rumus ini yang dicari.
 
@@ -242,25 +238,25 @@ Jawabannya berasal dari kecepatan rata-rata.
 
 Pada GLBB:
 
-$$
+```math
 v_{avg}
 =
 \frac{v_0+v}{2}
-$$
+```
 
 Ada pembagian dua.
 
 Ketika diturunkan menjadi rumus perpindahan:
 
-$$
+```math
 \Delta x=v_0t+\frac12at^2
-$$
+```
 
 muncullah angka:
 
-$$
+```math
 \frac12
-$$
+```
 
 Jadi angka tersebut bukan muncul secara acak.
 
@@ -270,15 +266,15 @@ Jadi angka tersebut bukan muncul secara acak.
 
 Pada rumus:
 
-$$
+```math
 \Delta x=v_0t+\frac12at^2
-$$
+```
 
 terdapat:
 
-$$
+```math
 t^2
-$$
+```
 
 ---
 
@@ -288,8 +284,8 @@ Karena percepatan bekerja terus menerus.
 
 Setiap detik:
 
-* kecepatan bertambah
-* jarak yang ditempuh tiap detik juga bertambah
+* Kecepatan bertambah
+* Jarak yang ditempuh tiap detik juga bertambah
 
 Akibatnya pertumbuhan jarak tidak lagi linear.
 
@@ -299,9 +295,9 @@ Akibatnya pertumbuhan jarak tidak lagi linear.
 
 Jika:
 
-$$
+```math
 a=2
-$$
+```
 
 Maka:
 
@@ -314,15 +310,31 @@ Maka:
 
 Pola:
 
-$$
+```math
 1^2,2^2,3^2,4^2
-$$
+```
 
 Karena itulah muncul:
 
-$$
+```math
 t^2
-$$
+```
+
+### Catatan Penting
+
+Tabel di atas hanya menunjukkan **pola kuadrat** untuk membantu intuisi.
+
+Secara matematis, tambahan jarak karena percepatan adalah:
+
+```math
+\frac12at^2
+```
+
+bukan sekadar:
+
+```math
+t^2
+```
 
 ---
 
@@ -330,15 +342,15 @@ $$
 
 Ketika benda jatuh:
 
-$$
+```math
 a=g
-$$
+```
 
 dengan:
 
-$$
+```math
 g\approx9.8\text{ m/s}^2
-$$
+```
 
 ---
 
@@ -346,9 +358,9 @@ $$
 
 Setiap detik kecepatan berubah:
 
-$$
-9.8 \text{ m/s}
-$$
+```math
+9.8\text{ m/s}
+```
 
 Misalnya:
 
@@ -371,17 +383,17 @@ Gravitasi adalah laju perubahan kecepatan.
 
 Saat memilih arah atas sebagai positif:
 
-$$
-+ \rightarrow atas
-$$
+```math
++\rightarrow \text{atas}
+```
 
 Maka gravitasi mengarah ke bawah.
 
 Sehingga:
 
-$$
+```math
 a=-g
-$$
+```
 
 ---
 
@@ -400,15 +412,15 @@ Misalnya:
 
 Pada titik tertinggi:
 
-$$
+```math
 v=0
-$$
+```
 
 tetapi:
 
-$$
+```math
 a=-g
-$$
+```
 
 tetap ada.
 
@@ -418,18 +430,18 @@ tetap ada.
 
 Jangan menghafal:
 
-$$
+```math
 v=v_0+at
-$$
+```
 
-Sebagai sekadar rumus.
+sebagai sekadar rumus.
 
 Pahami bahwa:
 
-* percepatan mengubah kecepatan
-* kecepatan mengubah posisi
-* gravitasi adalah percepatan
-* faktor $\frac12$ berasal dari kecepatan rata-rata
-* faktor $t^2$ muncul karena perubahan kecepatan terjadi terus-menerus
+* Percepatan mengubah kecepatan
+* Kecepatan mengubah posisi
+* Gravitasi adalah percepatan
+* Faktor $\frac12$ berasal dari kecepatan rata-rata
+* Faktor $t^2$ muncul karena perubahan kecepatan terjadi terus-menerus
 
 Jika memahami hubungan tersebut, hampir semua soal kinematika dapat diturunkan kembali meskipun lupa rumusnya.
