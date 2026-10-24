@@ -423,7 +423,7 @@ mask = abs(z) > 3
 MAD menggunakan median absolute deviation.
 
 ```math
-MAD = \operatorname{median}(|x_i-\tilde{x}|)
+MAD = {median}(|x_i-\tilde{x}|)
 ```
 
 Modified Z-score:
