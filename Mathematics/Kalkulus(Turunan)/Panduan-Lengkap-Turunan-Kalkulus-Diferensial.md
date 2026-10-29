@@ -1125,7 +1125,7 @@ Gradien ini memberi informasi bagaimana perubahan `w` dan `b` memengaruhi loss.
 Untuk `n` contoh:
 
 ```math
-\{MSE}=\frac{1}{n}\sum_{i=1}^{n}(\hat{y}_i-y_i)^2
+$$\{MSE}=\frac{1}{n}\sum_{i=1}^{n}(\hat{y}_i-y_i)^2$$
 ```
 
 MSE menghukum kesalahan prediksi besar dengan lebih kuat karena residual dikuadratkan.
