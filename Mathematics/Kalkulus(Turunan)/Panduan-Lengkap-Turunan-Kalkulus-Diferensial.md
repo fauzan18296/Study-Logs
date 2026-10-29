@@ -1,13 +1,35 @@
-# Panduan Lengkap Turunan (Kalkulus Diferensial)
-## Dari Fondasi Matematika hingga Gradient Descent untuk Machine Learning
+<div align="center">
 
-**Nama file:** `Panduan-Lengkap-Turunan-Kalkulus-Diferensial.md`  
-**Level:** Pemula hingga menengah  
-**Tujuan:** Memahami makna turunan, menghitung turunan berbagai fungsi, menganalisis grafik dan titik optimum, serta menghubungkan turunan dengan optimisasi Machine Learning.
+# 📘 PANDUAN LENGKAP TURUNAN
+### Kalkulus Diferensial — Dari Konsep Dasar hingga Machine Learning
+
+**Belajar bertahap · Contoh terstruktur · Latihan mandiri**
+
+</div>
 
 ---
 
-## Daftar Isi
+> [!NOTE]
+> **Tujuan catatan**
+> Memahami makna turunan, menghitung turunan berbagai fungsi, menganalisis grafik dan titik optimum, lalu menghubungkannya dengan optimisasi Machine Learning.
+>
+> **Level:** Pemula → Menengah  
+> **Nama file:** `Panduan-Lengkap-Turunan-Kalkulus-Diferensial.md`
+
+> [!TIP]
+> **Cara menggunakan panduan ini**
+> Pelajari satu bagian setiap sesi. Kerjakan contoh dengan tangan terlebih dahulu, lalu tutup catatan dan coba latihan mandiri. Jangan lanjut hanya karena sudah hafal rumus—pastikan kamu memahami alasan di baliknya.
+
+
+---
+
+## 🧭 Peta Materi
+
+> **Urutan yang disarankan:** Fondasi → Definisi turunan → Aturan hitung → Analisis grafik → Turunan parsial → Gradient Descent.
+>
+> Bagian **1–5** membangun fondasi, **6–13** membahas konsep dan teknik hitung, **14–18** menghubungkan turunan dengan optimisasi, sedangkan **19–23** berisi evaluasi dan referensi cepat.
+
+## 📚 Daftar Isi
 
 1. [Tujuan Pembelajaran](#1-tujuan-pembelajaran)
 2. [Prasyarat Matematika](#2-prasyarat-matematika)
@@ -35,7 +57,8 @@
 
 ---
 
-## 1. Tujuan Pembelajaran
+
+## 🎯 1. Tujuan Pembelajaran
 
 Setelah menyelesaikan panduan ini, kamu diharapkan mampu:
 
@@ -48,9 +71,13 @@ Setelah menyelesaikan panduan ini, kamu diharapkan mampu:
 - Memahami turunan parsial, gradien, dan aturan rantai dalam fungsi multivariabel.
 - Menjelaskan dasar matematis Gradient Descent dan backpropagation.
 
+> [!IMPORTANT]
 > **Prinsip belajar:** jangan hanya menghafal rumus. Untuk setiap aturan, pahami kapan aturan itu berlaku, mengapa dibutuhkan, dan bagaimana memeriksa hasilnya.
 
-## 2. Prasyarat Matematika
+
+---
+
+## 🧰 2. Prasyarat Matematika
 
 Sebelum mempelajari turunan, pastikan kamu cukup nyaman dengan:
 
@@ -104,7 +131,10 @@ Bentuk akar juga dapat ditulis sebagai pangkat untuk mempermudah diferensiasi.
 
 ---
 
-## 3. Konsep Fungsi dan Grafik
+
+---
+
+## 📈 3. Konsep Fungsi dan Grafik
 
 ### 3.1 Jenis fungsi yang sering dijumpai
 
@@ -132,7 +162,10 @@ Turunan menghubungkan perubahan fungsi dengan kemiringan lokal grafik.
 
 ---
 
-## 4. Gradien dan Laju Perubahan
+
+---
+
+## 📏 4. Gradien dan Laju Perubahan
 
 ### 4.1 Gradien garis
 
@@ -162,7 +195,10 @@ Contoh interpretasi: jika `s(t)` menyatakan posisi terhadap waktu, maka `s'(t)` 
 
 ---
 
-## 5. Limit dan Kontinuitas
+
+---
+
+## ♾️ 5. Limit dan Kontinuitas
 
 ### 5.1 Pengertian limit
 
@@ -242,7 +278,10 @@ Diferensiabilitas mengimplikasikan kontinuitas di titik tersebut, tetapi kontinu
 
 ---
 
-## 6. Definisi Turunan
+
+---
+
+## 🧠 6. Definisi Turunan
 
 ### 6.1 Definisi melalui limit
 
@@ -306,7 +345,10 @@ y-f(a)=f'(a)(x-a)
 
 ---
 
-## 7. Notasi Turunan
+
+---
+
+## 🔤 7. Notasi Turunan
 
 | Notasi | Makna |
 |---|---|
@@ -322,7 +364,10 @@ Notasi `dy/dx` sangat berguna untuk aturan rantai dan kalkulus multivariabel. Da
 
 ---
 
-## 8. Aturan Dasar Turunan
+
+---
+
+## 🧮 8. Aturan Dasar Turunan
 
 ### 8.1 Aturan konstanta
 
@@ -430,7 +475,10 @@ Konstanta `-9` turunannya nol.
 
 ---
 
-## 9. Aturan Perkalian, Pembagian, dan Rantai
+
+---
+
+## 🔗 9. Aturan Perkalian, Pembagian, dan Rantai
 
 ### 9.1 Product Rule
 
@@ -450,7 +498,8 @@ f(x)=x^2(x+1)
 f'(x)=2x(x+1)+x^2(1)=3x^2+2x
 ```
 
-**Kesalahan umum:** menganggap turunan perkalian sama dengan perkalian kedua turunan. Secara umum, `(uv)'` bukan `u'v'`.
+> [!WARNING]
+> **Kesalahan umum:** menganggap turunan perkalian sama dengan perkalian kedua turunan. Secara umum, `(uv)'` bukan `u'v'`.
 
 ### 9.2 Quotient Rule
 
@@ -517,7 +566,10 @@ Chain rule sangat penting untuk menurunkan fungsi komposisi, fungsi aktivasi, da
 
 ---
 
-## 10. Turunan Berbagai Jenis Fungsi
+
+---
+
+## 🧩 10. Turunan Berbagai Jenis Fungsi
 
 ### 10.1 Eksponensial
 
@@ -640,7 +692,10 @@ Contoh penting: turunan fungsi invers trigonometri dan logaritma dapat diturunka
 
 ---
 
-## 11. Turunan Implisit
+
+---
+
+## ✍️ 11. Turunan Implisit
 
 Turunan implisit digunakan ketika `y` tidak ditulis secara langsung sebagai fungsi `x`.
 
@@ -666,7 +721,10 @@ Turunan implisit berguna untuk kurva, hubungan antarvariabel, dan masalah yang s
 
 ---
 
-## 12. Turunan Orde Kedua dan Lebih Tinggi
+
+---
+
+## 📉 12. Turunan Orde Kedua dan Lebih Tinggi
 
 ### 12.1 Turunan kedua
 
@@ -711,7 +769,10 @@ Turunan orde lebih tinggi dipakai dalam analisis fungsi, deret Taylor, fisika, d
 
 ---
 
-## 13. Diferensial dan Aproksimasi Linear
+
+---
+
+## 📐 13. Diferensial dan Aproksimasi Linear
 
 ### 13.1 Diferensial
 
@@ -739,7 +800,10 @@ Aproksimasi linear umumnya semakin baik ketika `x` semakin dekat dengan `a`, sel
 
 ---
 
-## 14. Analisis Perilaku Grafik
+
+---
+
+## 🔍 14. Analisis Perilaku Grafik
 
 ### 14.1 Interval naik dan turun
 
@@ -800,7 +864,10 @@ Di `x = 0`, turunan pertama nol, tetapi fungsi tetap naik di kedua sisi. Titik i
 
 ---
 
-## 15. Titik Kritis dan Optimisasi
+
+---
+
+## 🏔️ 15. Titik Kritis dan Optimisasi
 
 ### 15.1 Prosedur mencari optimum
 
@@ -859,7 +926,10 @@ Jika domainnya `a ≤ x ≤ b`, jangan hanya memeriksa `f'(x) = 0`. Evaluasi tit
 
 ---
 
-## 16. Turunan Parsial dan Gradien
+
+---
+
+## 🧭 16. Turunan Parsial dan Gradien
 
 Bagian ini menjadi jembatan dari kalkulus satu variabel ke Machine Learning.
 
@@ -939,7 +1009,10 @@ Hessian membantu mempelajari kecekungan fungsi multivariabel dan metode optimisa
 
 ---
 
-## 17. Gradient Descent
+
+---
+
+## ⚙️ 17. Gradient Descent
 
 ### 17.1 Tujuan
 
@@ -1009,11 +1082,15 @@ Gradient Descent tidak menjamin menemukan minimum global untuk setiap fungsi non
 
 Backpropagation menghitung gradien loss terhadap parameter jaringan menggunakan aturan rantai secara sistematis. Gradient Descent atau algoritma optimisasi lain kemudian menggunakan gradien itu untuk memperbarui parameter.
 
-**Perbedaan penting:** backpropagation adalah metode menghitung gradien; Gradient Descent adalah metode menggunakan gradien untuk memperbarui parameter.
+> [!IMPORTANT]
+> **Perbedaan penting:** backpropagation adalah metode menghitung gradien; Gradient Descent adalah metode menggunakan gradien untuk memperbarui parameter.
 
 ---
 
-## 18. Hubungan dengan Machine Learning
+
+---
+
+## 🤖 18. Hubungan dengan Machine Learning
 
 ### 18.1 Regresi linear
 
@@ -1114,7 +1191,10 @@ Ini berguna untuk memeriksa gradien numerik terhadap turunan analitik. Pilihan `
 
 ---
 
-## 19. Kesalahan Umum
+
+---
+
+## ⚠️ 19. Kesalahan Umum
 
 ### Kesalahan 1 — Menganggap turunan nol pasti optimum
 
@@ -1150,7 +1230,10 @@ Backpropagation menghitung gradien; algoritma optimisasi menggunakan gradien unt
 
 ---
 
-## 20. Strategi Belajar
+
+---
+
+## 🗓️ 20. Strategi Belajar
 
 Gunakan pola belajar berikut untuk setiap topik:
 
@@ -1178,7 +1261,10 @@ Rencana ini fleksibel. Jika konsep limit atau chain rule belum kuat, luangkan wa
 
 ---
 
-## 21. Latihan Bertahap
+
+---
+
+## ✏️ 21. Latihan Bertahap
 
 **Petunjuk:** kerjakan dahulu tanpa melihat ringkasan rumus. Untuk setiap jawaban, tuliskan langkahnya dan jelaskan alasan memilih aturan yang digunakan.
 
@@ -1258,11 +1344,15 @@ f(x,y)=x^2+xy+2y^2
 12. Gradien awal `-8`, parameter baru `0.8`, loss awal `16`, loss baru `10.24`.
 13. Turunan mengukur perubahan lokal; gradien mengumpulkan turunan parsial; backpropagation menghitung gradien dalam jaringan komputasi; Gradient Descent menggunakan gradien untuk memperbarui parameter.
 
-**Catatan:** gunakan kunci singkat untuk memeriksa hasil akhir, bukan menggantikan proses pengerjaan.
+> [!TIP]
+> Gunakan kunci singkat untuk memeriksa hasil akhir, bukan menggantikan proses pengerjaan.
 
 ---
 
-## 22. Ringkasan Rumus
+
+---
+
+## 📌 22. Ringkasan Rumus
 
 ### Definisi dan aturan dasar
 
@@ -1348,7 +1438,10 @@ Kesimpulan uji turunan kedua ini berlaku ketika `f'(c) = 0` dan fungsi cukup ter
 
 ---
 
-## 23. Glosarium
+
+---
+
+## 📚 23. Glosarium
 
 | Istilah | Penjelasan singkat |
 |---|---|
@@ -1374,10 +1467,28 @@ Kesimpulan uji turunan kedua ini berlaku ketika `f'(c) = 0` dan fungsi cukup ter
 
 ---
 
-## Penutup
+---
+
+## 🏁 Penutup
+
+> **Target akhir:** mampu menjelaskan konsep, menghitung turunan, menguji hasil, dan menghubungkannya dengan optimisasi.
 
 Urutan paling penting untuk dikuasai adalah:
 
 **Fungsi dan aljabar → gradien → limit → definisi turunan → aturan turunan → chain rule → analisis grafik → turunan parsial → Gradient Descent.**
 
 Jangan mengukur kemajuan hanya dari banyaknya rumus yang dihafal. Ukur dari kemampuan menjelaskan mengapa rumus digunakan, mengenali batas berlakunya, dan memeriksa apakah hasilnya masuk akal secara matematis maupun grafis.
+
+
+---
+
+<div align="center">
+
+**Selesai membaca bukan berarti selesai belajar.**  
+Pilih satu topik, kerjakan beberapa soal, lalu jelaskan kembali konsepnya dengan bahasamu sendiri.
+
+</div>
+
+> [!NOTE]
+> **Catatan format rumus:** isi dokumen mempertahankan blok ` ```math ` sesuai format yang diminta. Namun, GitHub umumnya menampilkan fenced code block sebagai kode, bukan merendernya sebagai persamaan. Jika ingin persamaan tampil ter-render langsung di GitHub, gunakan delimiters matematika `$...$` atau `$$...$$` sesuai kebutuhan.
+
