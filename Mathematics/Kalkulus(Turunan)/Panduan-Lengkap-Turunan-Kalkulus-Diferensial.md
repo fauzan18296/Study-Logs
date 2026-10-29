@@ -185,7 +185,7 @@ Untuk fungsi `f`, perubahan rata-rata dari `x` ke `x+h` adalah:
 \frac{f(x+h)-f(x)}{h},\qquad h\ne 0
 ```
 
-Nilai ini adalah gradien garis secan yang melewati dua titik pada grafik.
+Nilai ini adalah gradien garis sekan yang melewati dua titik pada grafik.
 
 ### 4.3 Laju perubahan sesaat
 
