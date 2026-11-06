@@ -21,29 +21,21 @@ f'(x) = -\frac{1}{x^2}
 
 1. **Ubah Bentuk Pecahan Menjadi Pangkat Negatif**  
    Sebelum diturunkan, ubah posisi variabel agar tidak lagi berada di bawah pecahan (penyebut).
-   ```math
-   \frac{1}{x} = x^{-1}
-   ```
+   $$\frac{1}{x} = x^{-1}$$
+   
 
 2. **Terapkan Aturan Pangkat**  
    Gunakan rumus umum turunan 
     $$\frac{d}{dx}[x^n] = n \cdot x^{n-1}$$
     . Jatuhkan pangkat awal ($n = -1$) ke depan sebagai pengali, lalu kurangi pangkatnya dengan $1$.
-   ```math
-   \frac{d}{dx} [x^{-1}] = -1 \cdot x^{-1 - 1}
-   ```
+   $$\frac{d}{dx} [x^{-1}] = -1 \cdot x^{-1 - 1}$$
 
 3. **Hitung Hasil Pangkat Baru**  
-   ```math
-    -1 \cdot x^{-2}
-    ```
+    $$-1 \cdot x^{-2}$$
 
 4. **Kembalikan ke Bentuk Pecahan Positif**
     Ubah kembali pangkat negatif menjadi bentuk pecahan agar hasilnya lebih rapi.
-
-   ```math
-    -x^{-2} = -\frac{1}{x^2}  
-   ```
+    $$-x^{-2} = -\frac{1}{x^2}$$
 
 ---
 
